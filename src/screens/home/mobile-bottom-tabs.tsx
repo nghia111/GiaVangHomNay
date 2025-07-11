@@ -10,7 +10,7 @@ import { VStack } from "../../components/ui/vstack";
 const MobileBottomTabs = ({ bottomTabs, activeTab, setActiveTab }: any) => {
   return (
     <>
-      <HStack className=" justify-between w-full  md:hidden  ">
+      <HStack className="justify-between md:hidden  ">
         {bottomTabs.map((tab: any) => {
           return (
             <Pressable
